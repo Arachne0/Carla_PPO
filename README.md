@@ -27,16 +27,21 @@ Moving forth we'd advice you to setup your project on **Windows** or **Linux** a
 
 ## Project Setup (Installations)
 
-In order to setup this project you're advised to clone this repository and make sure you have **Python v3.7.+ (64bit)** version installed. After clonding this repository we can create a python virtual environment for this project 💥 let's call it **venv** `python -m venv venv`. You can call it something else if you want :) Now we can activate our virtual env `source venv/Script/activate`, and don't forget to do so before installing any of the dependencies. Moving forward we can install the dependencies with `pip` with the following command `pip install -r requirements.txt`. We're not only using **pip** as our depency manager but **poetry** as well, therefore execute the following command `cd poetry/ && poetry update` in the repo. This will install all the other dependencies now with **poetry**. Once everything is setup up we're nearly there! 
+In order to setup this project you're advised to clone this repository and make sure you have **Python v3.7.+ (64bit)** version installed.  Moving forward we can install the dependencies with `pip` with the following command `pip install -r requirements.txt`.
 
-Download the **CARLA server (0.9.8)** + **Additional Maps**, and make sure you've read the Prerequisites of this repo. Once the server is up and running, we can start our client with `python continuous_driver.py --exp-name=ppo --train=False` command. Don't forget to start the Carla server beforehand. Yey!!!
+
+## we used linux (linux
+
+Download the **CARLA server (0.9.14)** + **Additional Maps**, and make sure you've read the Prerequisites of this repo. Once the server is up and running, we can start our client with `python continuous_driver.py --exp-name=ppo --train=False` command. Don't forget to start the Carla server beforehand. ./CarlaUE4.sh -RenderOffScreen 
+
+ * PyTorch download cuda 11.7 -  pip install torch torchvision torchaudio
+
 
 ## Built With
 
 * [Python](https://www.python.org/downloads/release/python-370/) - Programming language
 * [PyTorch](https://pytorch.org/) - Open source machine learning framework
 * [CARLA](http://carla.org/) - An urban driving simulator
-* [Poetry](https://python-poetry.org/) - Packaging and dependency manager
 * [Tensorboard](https://www.tensorflow.org/tensorboard) - Visualization toolkit
 
 
