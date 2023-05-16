@@ -30,7 +30,7 @@ Moving forth we'd advice you to setup your project on **Windows** or **Linux** a
 In order to setup this project you're advised to clone this repository and make sure you have **Python v3.7.+ (64bit)** version installed.  Moving forward we can install the dependencies with `pip` with the following command `pip install -r requirements.txt`.
 
 
-## we used linux (linux
+## we used linux linux
 
 Download the **CARLA server (0.9.14)** + **Additional Maps**, and make sure you've read the Prerequisites of this repo. Once the server is up and running, we can start our client with `python continuous_driver.py --exp-name=ppo --train=False` command. Don't forget to start the Carla server beforehand. ./CarlaUE4.sh -RenderOffScreen 
 
