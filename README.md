@@ -21,7 +21,7 @@ Find the documented work [here](info/documentation/%5BThesis%202022%5D%20IMPLEME
 
 ### Prerequisites
 
-We're using [CARLA](https://github.com/carla-simulator/carla/releases) (0.9.8) + Additional Maps. We're mainly focused on two towns which are Town 2 and Town 7, therefore we'd advice you download Additional Maps file alongside the CARLA server. You can copy/paste the maps from **Additional Maps** directory to **Main** CARLA directory to ensure everything is seemless.
+We're using [CARLA](https://github.com/carla-simulator/carla/releases) (0.9.14) + Additional Maps. We're mainly focused on two towns which are Town 2 and Town 7, therefore we'd advice you download Additional Maps file alongside the CARLA server. You can copy/paste the maps from **Additional Maps** directory to **Main** CARLA directory to ensure everything is seemless.
 
 Moving forth we'd advice you to setup your project on **Windows** or **Linux** as these are the two OSs supported by CARLA at the moment. 
 
