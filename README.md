@@ -14,7 +14,7 @@ This work aims to develop an end-to-end solution for autonomous driving that can
 2. Variational Autoencoder.
 3. Proximal Policy Optimization.
 
-We have used [CALRA](http://carla.org/) (version 0.9.8) as our environment (Urban Simulator). We have also summarized some results and analyses to simplify this problem further.
+We have used [CALRA](http://carla.org/) (version 0.9.14) as our environment (Urban Simulator). We have also summarized some results and analyses to simplify this problem further.
 
 Find the documented work [here](info/documentation/%5BThesis%202022%5D%20IMPLEMENTING%20A%20DEEP%20REINFORCEMENT%20LEARNING%20MODEL%20FOR%20AUTONOMOUS%20DRIVING.pdf) to better understand this whole project.
 
